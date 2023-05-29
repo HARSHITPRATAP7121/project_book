@@ -6,7 +6,7 @@ import numpy as np
 st.header('Book Recommender System Using Machine Learning')
 model = pickle.load(open('model1.pkl','rb'))
 book_names = pickle.load(open('book_name.pkl','rb'))
-final = pickle.load(open('final.pkl','rb'))
+final = pickle.load(open('final_rating.pkl','rb'))
 book_pivot = pickle.load(open('book_pivots.pkl','rb'))
 
 
