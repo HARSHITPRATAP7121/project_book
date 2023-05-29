@@ -6,7 +6,7 @@ import numpy as np
 st.header('Book Recommender System Using Machine Learning')
 model = pickle.load(open('model1.pkl','rb'))
 book_names = pickle.load(open('book_name.pkl','rb'))
-final = pickle.load(open('final_rating.pkl','rb'))
+final = pickle.load(open('final.pkl','rb'))
 book_pivot = pickle.load(open('book_pivots.pkl','rb'))
 
 
@@ -72,6 +72,8 @@ if st.button('Show Recommendation'):
         
 if st.button("About"):
   st.subheader("Developed by HARSHIT PRATAP ")
-  st.subheader("Developed by Irfan Gouri , Keshav Soni ")
+  st.subheader("Irfan Gouri , Keshav Soni ")
   st.subheader("E-Section")
+  st.subheader("Second Mid Term Machine learning lab  Project ")
   st.subheader("Students , Department of Artificial Intelligence And Data Science")
+
